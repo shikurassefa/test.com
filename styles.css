@@ -1,0 +1,100 @@
+
+body
+{
+    font-family: sans-serif;
+    color: #f5f5f6;
+}
+.menu
+{
+    background-color: burlywood;
+    width: 60%;
+   
+    margin: 0 auto;
+    padding: 23px;
+   position: relative;
+}
+ .decore
+{
+    background-color: #fff;
+    width: 12px;
+    height: 12px;
+    display: block;
+    border-radius: 50%;
+}
+.one
+{
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    
+}
+.two
+{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+.three
+{
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.four
+{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+.container
+{
+    border: 1px solid white;
+    padding: 30px;
+    border-radius: 40px;
+}
+.header
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img
+{
+     width: 100px;
+     height: 60px;
+     display: inline-block;
+     border: 2px solid white;
+     border-radius: 50%;
+     margin-bottom:-10px;
+}
+.drink-header,.dessert-header
+{
+    display: flex;
+    justify-content: space-between;
+    border-top: 3px solid;
+    border-bottom: 3px solid;
+}
+.drink-body,.dessert-body
+{
+    display: flex;
+    justify-content: space-between;
+}
+.left,.right
+{
+ width: 50%;
+ padding: 30px;  
+}
+ol
+{
+    margin: 0;
+    padding: 0;
+}
+li
+{
+margin: 20px 0;
+}
+.price
+{
+    float: right;
+  
+}
